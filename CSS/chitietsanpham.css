@@ -1,0 +1,22 @@
+.brand-name {
+    font-size: 2rem; /* Phóng to chữ */
+    font-weight: bold;
+    text-align:left;
+    flex-grow: 1;
+    color: rgb(255, 255, 255); /* Màu chữ */
+    font-family: 'Open Sans';/*áp dụng font*/
+}
+.user-review {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+.discounted-price {
+    color: #EE4E4E;
+}

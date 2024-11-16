@@ -1,0 +1,74 @@
+.product-sidebar h5 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.product-sidebar .list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.product-sidebar .list-group-item a {
+    color: #333;  /* Màu chữ mặc định */
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    transition: color 0.3s; /* Thêm hiệu ứng khi thay đổi màu chữ */
+}
+/* Danh mục con luôn hiển thị */
+.product-sidebar .subcategory {
+    display: block;
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.product-sidebar .subcategory li a {
+    color: #333;
+    padding: 8px 0;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.product-sidebar .subcategory li a:hover {
+    color: #6A9C89;
+}
+/* Thay đổi nền khi mục được chọn */
+.product-sidebar .list-group-item.active {
+    background-color: #C4DAD2;
+}
+/* Thay đổi màu chữ khi mục được chọn */
+.product-sidebar .subcategory li.active a {
+    color: #EE4E4E; /* Màu chữ khi mục được chọn */
+    font-weight: bold; /* Làm đậm chữ khi chọn */
+}
+
+/* Định dạng cho sản phẩm giảm giá */
+.card .card-text .original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.card .card-text .discounted-price {
+    color: #EE4E4E;
+}
+.discount-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.card {
+    position: relative;
+}
+

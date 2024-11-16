@@ -1,0 +1,21 @@
+body {
+    background-color: #f4f4f4; /* Màu nền nhẹ */
+}
+
+.contact-section {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff; /* Màu nền của phần liên hệ */
+    padding: 20px;
+    border-radius: 8px; /* Bo góc cho khung */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bóng đổ cho khung */
+}
+
+h2 {
+    color: #16423C; /* Màu tiêu đề */
+}
+
+.footer h6 {
+    font-weight: bold;
+}
+

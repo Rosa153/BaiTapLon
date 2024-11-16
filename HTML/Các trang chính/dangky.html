@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Đăng Ký</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/chitietsanpham.css">
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <link rel="stylesheet" href="/CSS/dangnhap.css">
+    <link rel="stylesheet" href="/CSS/giohang.css">
+    <link rel="stylesheet" href="/CSS/sanpham.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center p-3">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo" width="100">
+        </div>
+        <div class="brand-name"> 
+            MEOGAU COMESTICS
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/trang chu.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/gioi thieu.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/sanpham.html">Sản Phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/lien he.html">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4">Đăng Ký</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <form id="registerForm" action="/register" method="POST"> 
+                            <div class="form-group">
+                                <label for="name">Họ Tên:</label>
+                                <input type="text" class="form-control" id="name" name="name" required placeholder="Nhập họ tên của bạn">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required placeholder="Nhập email của bạn">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Mật khẩu:</label>
+                                <input type="password" class="form-control" id="password" name="password" required placeholder="Nhập mật khẩu">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-password">Xác nhận mật khẩu:</label>
+                                <input type="password" class="form-control" id="confirm-password" name="confirm-password" required placeholder="Nhập lại mật khẩu">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" onclick="dangKY(event)">Đăng Ký</button>
+                        </form>
+                        
+                        </form>
+                        <div class="text-center mt-3">
+                            <span>Đã có tài khoản? <a href="/HTML/Các trang chính/dangnhap.html">Đăng nhập</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-4">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="text-white">HỖ TRỢ KHÁCH HÀNG</h6>
+                    <ul class="list-unstyled">
+                        <li><span class="text-warning">Hotline: 6677 1508</span></li>
+                        <li>Dương Quảng Hàm, Quan Hoa,<br>Cầu Giấy</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white">VỀ CHÚNG TÔI</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/HTML/Các trang chính/gioi thieu.html">Giới thiệu</a></li>
+                        <li><a href="/HTML/Các trang chính/tuyendung.html">Tuyển dụng</a></li>
+                        <li><a href="/HTML/Các trang chính/lien he.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-white">CẬP NHẬT THÔNG TIN KHUYẾN MÃI</h6>
+                    <form class="form-inline mb-2">
+                        <input type="email" class="form-control w-75 mr-2" id="email" placeholder="Email của bạn">
+                        <button class="btn btn-warning" onclick="capnhatTTkhuyenmai(event)">Đăng ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/JS/main.js"></script>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeoGau Comestics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/sanpham.css">
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center p-3">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo" width="100">
+        </div>
+        <div class="search-box d-flex flex-grow-1 mx-3">
+            <form action="#" method="GET" class="w-100">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Hãy nhập tên sản phẩm cần tìm" aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" type="submit">Tìm kiếm</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="user-options d-flex">
+            <a href="/HTML/Các trang chính/dangnhap.html" class="mx-2">Đăng nhập</a>
+            <a href="/HTML/Các trang chính/dangky.html" class="mx-2">Đăng ký</a>
+            <a href="/HTML/Các trang chính/giohang.html" class="mx-2">Giỏ hàng</a>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/trang chu.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/gioi thieu.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/HTML/Các trang chính/sanpham.html">Sản Phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/lien he.html">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <aside class="col-md-3 product-sidebar">
+                <h5 class="font-weight-bold mb-3">Danh mục sản phẩm</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href="/HTML/Các trang danh mục/1_mypham.html">Mỹ phẩm</a>
+                        <ul class="subcategory">
+                            <li><a href="/HTML/Các trang danh mục/2_son.html">Son môi</a></li>
+                            <li><a href="/HTML/Các trang danh mục/2_kemnen.html">Kem nền</a></li>
+                            <li><a href="/HTML/Các trang danh mục/2_phanphu.html">Phấn phủ</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item active">
+                        <a href="/HTML/Các trang danh mục/1_quanao.html">Quần áo</a>
+                        <ul class="subcategory">
+                            <li><a href="/HTML/Các trang danh mục/2_ao.html">Áo</a></li>
+                            <li><a href="/HTML/Các trang danh mục/2_quan.html">Quần</a></li>
+                            <li><a href="/HTML/Các trang danh mục/2_vay.html">Váy</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/HTML/Các trang danh mục/1_giaydep.html">Giày dép</a>
+                        <ul class="subcategory">
+                            <li><a href="/HTML/Các trang danh mục/2_giaythethao.html">Giày thể thao</a></li>
+                            <li><a href="/HTML/Các trang danh mục/2_dep.html">Dép</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/HTML/Các trang danh mục/1_tuisach.html">Túi sách</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/HTML/Các trang danh mục/1_trangsuc.html">Trang sức</a>
+                        <ul class="subcategory">
+                            <li><a href="/HTML/Các trang danh mục/2_nhan.html">Nhẫn</a></li>
+                            <li><a href="/HTML/Các trang danh mục/2_daychuyen.html">Dây chuyền</a></li>
+                            <li><a href="/HTML/Các trang danh mục/2_vongtay.html">Vòng tay</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>                             
+            <div class="col-md-9">
+                <!-- Nội dung chính -->
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <a href="/HTML/Chi tiết sản phẩm/ao1.html">
+                            <div class="card">
+                                <img src="/images/ao1.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Áo sơ mi cổ điển nhiều màu lụa satin mới của ZARA dành cho nữ</h5>
+                                    <p class="card-text">
+                                        <span class="original-price">1.299.000 VNĐ</span>
+                                        <span class="discounted-price">1.099.000 VNĐ</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a href="/HTML/Chi tiết sản phẩm/ao2.html">
+                            <div class="card">
+                                <img src="/images/ao2.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Áo khoác ngắn nữ ZARA mới có nút kim loại</h5>
+                                    <p class="card-text">
+                                        <span class="original-price">1.899.000 VNĐ</span>
+                                        <span class="discounted-price">1.499.000 VNĐ</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a href="/HTML/Chi tiết sản phẩm/ao3.html">
+                            <div class="card">
+                                <img src="/images/ao3.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zara Áo sweater Tay Dài Cổ Tròn Dáng Ôm Phối Nút Cá Tính Cho Nữ</h5>
+                                    <p class="card-text">
+                                        <span class="original-price">599.000 VNĐ</span>
+                                        <span class="discounted-price">399.000 VNĐ</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>   
+
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <a href="/HTML/Chi tiết sản phẩm/quan1.html">
+                            <div class="card">
+                                <img src="/images/quan1.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">QUẦN JEAN ỐNG RỘNG RÁCH LƯNG CAO RÁCH ZARA DÀNH CHO NỮ</h5>
+                                    <p class="card-text">
+                                        <span class="original-price">1.799.000 VNĐ</span>
+                                        <span class="discounted-price">1.399.000 VNĐ</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a href="/HTML/Chi tiết sản phẩm/quan2.html">
+                            <div class="card">
+                                <img src="/images/quan2.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">QUẦN JEAN NHIỀU MÀU LƯNG CAO THẲNG MÙA HÈ ZARA DÀNH CHO NỮ</h5>
+                                    <p class="card-text">
+                                        <span class="original-price">1.890.000 VNĐ</span>
+                                        <span class="discounted-price">1.490.000 VNĐ</span>          
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a href="/HTML/Chi tiết sản phẩm/vay1.html">
+                            <div class="card">
+                                <img src="/images/vay1.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Váy ngắn ống nữ TRF mới ZARA</h5>
+                                    <p class="card-text">
+                                        <span class="original-price">1.200.000 VNĐ</span>
+                                        <span class="discounted-price">800.000 VNĐ</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <a href="/HTML/Chi tiết sản phẩm/vay2.html">
+                            <div class="card">
+                                <img src="/images/vay2.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zara Váy Ngắn Họa Tiết Hoa Cúc Xinh Xắn Thời Trang Cho Nữ </h5>
+                                    <p class="card-text">                            
+                                        <span class="original-price">750.000 VNĐ</span>
+                                        <span class="discounted-price">520.000 VNĐ</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a href="/HTML/Chi tiết sản phẩm/vay3.html">
+                            <div class="card">
+                                <img src="/images/vay3.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zara Váy Ngắn Họa Tiết Hoa Cúc Xinh Xắn Thời Trang Cho Nữ</h5>
+                                    <p class="card-text">
+                                        <span class="original-price">1.500.000 VNĐ</span>
+                                        <span class="discounted-price">1.050.000 VNĐ</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>                        
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-4">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="text-white">HỖ TRỢ KHÁCH HÀNG</h6>
+                    <ul class="list-unstyled">
+                        <li><span class="text-warning">Hotline: 6677 1508</span></li>
+                        <li>Dương Quảng Hàm, Quan Hoa,<br>Cầu Giấy</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white">VỀ CHÚNG TÔI</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/HTML/Các trang chính/gioi thieu.html">Giới thiệu</a></li>
+                        <li><a href="/HTML/Các trang chính/tuyendung.html">Tuyển dụng</a></li>
+                        <li><a href="/HTML/Các trang chính/lien he.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-white">CẬP NHẬT THÔNG TIN KHUYẾN MÃI</h6>
+                    <form class="form-inline mb-2">
+                        <input type="email" class="form-control w-75 mr-2" id="email" placeholder="Email của bạn">
+                        <button class="btn btn-warning" onclick="capnhatTTkhuyenmai(event)">Đăng ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/JS/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

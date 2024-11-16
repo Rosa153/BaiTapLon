@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeoGau Comestics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/chitietsanpham.css">
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <link rel="stylesheet" href="/CSS/dangnhap.css">
+    <link rel="stylesheet" href="/CSS/giohang.css">
+    <link rel="stylesheet" href="/CSS/sanpham.css">
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center p-3">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo" width="100">
+        </div>
+        <div class="search-box d-flex flex-grow-1 mx-3">
+            <form action="#" method="GET" class="w-100">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Hãy nhập tên sản phẩm cần tìm" aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" type="submit">Tìm kiếm</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="user-options d-flex">
+            <a href="/HTML/Các trang chính/dangnhap.html" class="mx-2">Đăng nhập</a>
+            <a href="/HTML/Các trang chính/dangky.html" class="mx-2">Đăng ký</a>
+            <a href="/HTML/Các trang chính/giohang.html" class="mx-2">Giỏ hàng</a>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/trang chu.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/gioi thieu.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Các trang chính/sanpham.html">Sản Phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/HTML/Các trang chính/lien he.html">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container contact-section">
+        <h2 class="text-center">Liên hệ với chúng tôi</h2>
+        <p class="text-justify">
+            Nếu bạn có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui lòng điền vào biểu mẫu dưới đây:
+        </p>
+        <form id="contactForm" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Họ và Tên:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Tin nhắn:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="button" class="btn btn-dark" onclick="lienHe()">Gửi</button>
+        </form>
+
+        <hr>
+
+        <h4>Thông tin liên hệ</h4>
+        <p>Địa chỉ: Dương Quảng Hàm, Quan Hoa, Cầu Giấy, Hà Nội</p>
+        <p>Điện thoại: <strong>6677 1508</strong></p>
+        <p>Email: <strong><a href="mailto:info@tencongty.com">info@tencongty.com</a></strong></p>
+    </div>
+
+    <footer class="footer mt-4">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="text-white">HỖ TRỢ KHÁCH HÀNG</h6>
+                    <ul class="list-unstyled">
+                        <li><span class="text-warning">Hotline: 6677 1508</span></li>
+                        <li>Dương Quảng Hàm, Quan Hoa,<br>Cầu Giấy</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white">VỀ CHÚNG TÔI</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/HTML/Các trang chính/gioi thieu.html">Giới thiệu</a></li>
+                        <li><a href="/HTML/Các trang chính/tuyendung.html">Tuyển dụng</a></li>
+                        <li><a href="/HTML/Các trang chính/lien he.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-white">CẬP NHẬT THÔNG TIN KHUYẾN MÃI</h6>
+                    <form class="form-inline mb-2">
+                        <input type="email" class="form-control w-75 mr-2" id="email" placeholder="Email của bạn">
+                        <button class="btn btn-warning" onclick="capnhatTTkhuyenmai(event)">Đăng ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* Đảm bảo hình ảnh có kích thước lớn hơn */
+.text-center img {
+    max-width: 500px;
+    height: auto;
+    position: relative; /* Cần cho phép chữ đè lên */
+}
+

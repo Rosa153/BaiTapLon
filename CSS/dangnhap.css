@@ -1,0 +1,19 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.brand-name {
+    font-size: 2rem; /* Phóng to chữ */
+    font-weight: bold;
+    text-align:left;
+    flex-grow: 1;
+    color: rgb(255, 255, 255); /* Màu chữ */
+    font-family: 'Open Sans';/*áp dụng font*/
+}
+.logo {
+    margin-right: auto;
+}
